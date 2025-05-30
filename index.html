@@ -10,10 +10,29 @@
     <title>Krish Jain</title>
 </head>
 <body>
-    <audio loop autoplay>
-        <source src="uzi.mp3" type="audio/mpeg">
-    </audio>
-
     <h1>Hi I'm Krish</h1>
+
+<audio id="uzi" loop autoplay>
+    <source src="uzi.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="playAudio()" class="playbtn" type="button">Play Audio</button>
+<button onclick="pauseAudio()" class="pausebtn" type="button">Pause Audio</button> 
+
+
+<script>
+var x = document.getElementById("uzi"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+
+</script>
+
+    
 </body>
 </html>
