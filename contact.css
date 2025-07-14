@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(0, 140, 255);
+    color: white;
+    padding: 20px;
+    font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+    font-size: 150px;
+    text-align: center;
+}
+
+li {
+    font-size: 60px;
+}
+
+p {
+    font-size:medium;
+}
+
+button {
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
