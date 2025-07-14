@@ -29,3 +29,6 @@ button {
     cursor: pointer;
 }
 
+a:hover {
+  font-style: italic;
+}
